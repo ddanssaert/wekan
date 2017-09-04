@@ -28,7 +28,7 @@ App.launchScreens({
 });
 
 // Set the background color to the default one in Wekan.
-App.setPreference('BackgroundColor', '0x4d4d4dff');
+App.setPreference('BackgroundColor', '0xdedede');
 
 // Prevent launching a new instance everytime a link is clicked on Android.
 App.setPreference('AndroidLaunchMode', 'singleInstance');
