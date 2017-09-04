@@ -36,6 +36,7 @@ App.setPreference('AndroidLaunchMode', 'singleInstance');
 // Configure universal-links (deep links on Android) such that links to the server can be
 // opened in this app.
 // IMPORTANT! Replace the host name with the ROOT_URL configured in `app.json` or Docker etc.
+// Omit the port number (e.g. :3000) in the host name if you have one in ROOT_URL.
 App.appendToConfig(`
   <universal-links>
     <host name="<App Name>.herokuapp.com" scheme="https" event="launchedAppFromLink" />
