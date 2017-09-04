@@ -83,6 +83,9 @@ BlazeComponent.extendComponent({
       evt.stopImmediatePropagation();
       evt.preventDefault();
       Utils.goBoardId(Session.get('currentBoard'));
+    // Mobile fix
+    } else {
+      Utils.goCardId(this.currentData()._id);
     }
   },
 
