@@ -1,0 +1,3 @@
+[submodule "packages/meteor-jquery-ui-touch-punch"]
+	path = packages/meteor-jquery-ui-touch-punch
+	url = git@github.com:ddanssaert/meteor-jquery-ui-touch-punch.git
